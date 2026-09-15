@@ -147,8 +147,8 @@ A practical filtering workflow should:
 ## Project Files
 
 - [View the complete BERT SMS Spam Detection notebook](./bert-sms-spam-detection.ipynb)
+- [View the updated project report](./bert-sms-spam-detection-report.pdf)
 - [View the project image gallery](./images/README.md)
-
 ## Reproduce the Analysis
 
 1. Open the notebook in Google Colab.
