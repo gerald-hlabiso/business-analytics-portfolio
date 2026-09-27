@@ -1,0 +1,6 @@
+incoming_aircraft_status,total_flights,delayed_flights,observed_delay_rate
+On time or early,55456,8198,0.14782890940565493
+Minor delay,14891,3350,0.22496810153784164
+Delayed,12254,4967,0.4053370328056145
+Severely delayed,12470,7760,0.6222935044105854
+Unavailable,1218029,316628,0.259951117748428

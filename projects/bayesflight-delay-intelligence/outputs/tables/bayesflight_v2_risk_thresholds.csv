@@ -1,0 +1,5 @@
+risk_level,minimum_probability,maximum_probability,score_range,recommended_action
+Low,0,0.15,0–14.9,Normal monitoring
+Moderate,0.15,0.25,15–24.9,Monitor operating conditions
+High,0.25,0.4,25–39.9,Review and prepare mitigation
+Severe,0.4,1,40–100,Immediate operational attention

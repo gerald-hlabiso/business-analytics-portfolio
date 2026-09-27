@@ -1,0 +1,15 @@
+table_name,table_type,description
+fact_flight_risk_scores,Fact,Detailed scored flight-risk records
+dim_risk_level,Dimension,"Risk tiers, thresholds, colors, and actions"
+dim_alert_priority,Dimension,Alert priorities and descriptions
+dim_airport,Dimension,Unique airport codes
+dim_route,Dimension,Unique origin-destination routes
+dim_data_split,Dimension,"Training, validation, and testing splits"
+summary_dashboard_kpis,Summary,Top-level dashboard KPI values
+summary_risk_levels,Summary,Performance by Bayesian risk tier
+summary_operational_conditions,Summary,Performance by operating condition
+summary_airports,Summary,Origin-airport delay-risk rankings
+summary_routes,Summary,Route delay-risk rankings
+fact_alert_queue,Fact,Priority 1 and Priority 2 alert records
+model_coefficients,Model output,Posterior coefficient and odds-ratio results
+model_performance,Model output,Chronological model-performance results

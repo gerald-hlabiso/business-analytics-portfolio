@@ -1,0 +1,5 @@
+risk_level,risk_level_sort,minimum_risk_score,maximum_risk_score,risk_color,recommended_action
+Low,1,0,14.9,#2E86DE,Normal monitoring
+Moderate,2,15,24.9,#F1C40F,Monitor operating conditions
+High,3,25,39.9,#E67E22,Review and prepare mitigation
+Severe,4,40,100,#D64545,Immediate operational attention

@@ -1,0 +1,14 @@
+BAYESFLIGHT V2 MODEL INTERPRETATION
+===================================
+
+The reference-category baseline delay probability was 10.8%.
+
+incoming_aircraft_statusSeverely delayed had the strongest clearly positive effect, with a median odds ratio of 7.76 and a 95% credible interval from 7.35 to 8.17.
+
+departure_periodEarly morning had the strongest clearly negative effect, with a median odds ratio of 0.41 and a 95% credible interval from 0.35 to 0.49.
+
+13 predictor levels clearly increased delay risk, while 23 predictor levels clearly reduced delay risk.
+
+An effect was considered clear when its entire 95% Bayesian credible interval for the odds ratio was above or below 1.
+
+These results represent posterior associations and should not automatically be interpreted as causal effects.

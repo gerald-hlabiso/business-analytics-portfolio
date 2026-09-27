@@ -1,0 +1,19 @@
+BAYESFLIGHT V2 DELAY-RISK SCORING SYSTEM
+========================================
+
+Risk score:
+The Bayesian predicted probability is multiplied by 100.
+
+Risk levels:
+Low: predicted delay probability below 15%.
+Moderate: predicted delay probability from 15% to below 25%.
+High: predicted delay probability from 25% to below 40%.
+Severe: predicted delay probability of 40% or higher.
+
+Operational actions:
+Low: normal monitoring.
+Moderate: monitor operating conditions.
+High: review conditions and prepare mitigation.
+Severe: immediate operational attention.
+
+The risk tiers are decision-support categories and should be monitored for calibration drift.

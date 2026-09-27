@@ -1,0 +1,2 @@
+total_flights,delayed_flights,on_time_flights,posterior_probability,credible_lower,credible_upper,posterior_percentage,credible_interval
+2526144,616828,1909316,0.24417751253486525,0.24364794240655882,0.24470746633418616,24.42%,24.36%–24.47%

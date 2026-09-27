@@ -1,0 +1,6 @@
+measure,probability,percentage
+Prior delay probability,0.2,20.00%
+Observed delay rate,0.21364516512878207,21.36%
+Posterior delay probability,0.2136444271374178,21.36%
+95% credible interval lower bound,0.21177909999336827,21.18%
+95% credible interval upper bound,0.2155156218481643,21.55%

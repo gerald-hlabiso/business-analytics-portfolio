@@ -1,0 +1,4 @@
+data_split,total_flights,delayed_flights,delay_rate,first_month,last_month
+Training,979566,259118,0.2645232684678725,1,9
+Validation,224840,49299,0.21926258672834015,10,11
+Testing,108694,32486,0.29887574291129226,12,12

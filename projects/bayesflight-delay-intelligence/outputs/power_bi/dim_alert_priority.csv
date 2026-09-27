@@ -1,0 +1,5 @@
+alert_priority,alert_priority_sort,priority_description,priority_color
+Routine,1,Normal operational monitoring,#2E86DE
+Priority 3,2,Additional monitoring recommended,#F1C40F
+Priority 2,3,Operational review required,#E67E22
+Priority 1,4,Immediate operational response required,#D64545

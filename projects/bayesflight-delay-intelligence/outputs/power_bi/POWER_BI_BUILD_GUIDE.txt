@@ -1,0 +1,41 @@
+BAYESFLIGHT POWER BI DASHBOARD DATA
+===================================
+
+Recommended dashboard pages:
+
+1. Executive Overview
+   - Total flights
+   - Observed delay rate
+   - Predicted delay rate
+   - Average risk score
+   - High/Severe risk share
+   - Priority alert share
+
+2. Risk Monitoring
+   - Flights by risk level
+   - Observed versus predicted delay rate
+   - Risk level by weather severity
+   - Risk level by congestion
+
+3. Airport and Route Risk
+   - Highest-risk airports
+   - Highest-risk routes
+   - Airport delay-rate comparison
+
+4. Operational Alert Queue
+   - Priority 1 and Priority 2 alerts
+   - Recommended operational actions
+
+5. Model Performance
+   - Chronological validation metrics
+   - Calibration gap
+   - Posterior odds ratios
+
+Recommended relationships:
+fact_flight_risk_scores[risk_level] to dim_risk_level[risk_level]
+fact_flight_risk_scores[alert_priority] to dim_alert_priority[alert_priority]
+fact_flight_risk_scores[data_split] to dim_data_split[data_split]
+fact_flight_risk_scores[route] to dim_route[route]
+
+Use risk_level_sort to sort risk_level.
+Use alert_priority_sort to sort alert_priority.

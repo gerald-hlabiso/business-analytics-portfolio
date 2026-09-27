@@ -1,0 +1,2 @@
+first_date,last_date,total_flights,delayed_flights,on_time_flights,annual_delay_rate,unique_routes,unique_airlines
+2025-01-01,2025-12-31,2526144,616828,1909316,0.24417768741607762,1512,13
