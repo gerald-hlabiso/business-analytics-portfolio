@@ -1,0 +1,6 @@
+airport,station_code,observations,first_observation,last_observation,status
+STL,724340-13994,8760,2025-01-01T00:00:00Z,2025-12-31T23:00:00Z,Downloaded successfully
+ORD,725300-94846,8760,2025-01-01T00:00:00Z,2025-12-31T23:00:00Z,Downloaded successfully
+ATL,722190-13874,8760,2025-01-01T00:00:00Z,2025-12-31T23:00:00Z,Downloaded successfully
+DEN,725650-03017,8760,2025-01-01T00:00:00Z,2025-12-31T23:00:00Z,Downloaded successfully
+DFW,722590-03927,8760,2025-01-01T00:00:00Z,2025-12-31T23:00:00Z,Downloaded successfully
