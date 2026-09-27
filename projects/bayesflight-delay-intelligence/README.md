@@ -6,7 +6,7 @@ R serves as the analytical engine for data preparation, risk modeling, model eva
 
 The system helps users identify high-risk flights, understand the operational factors influencing delay risk, evaluate model performance, test different flight scenarios, and determine an appropriate operational response.
 
-![BayesFlight Dashboard](images/Dashboard.png)
+![BayesFlight Dashboard](Images/Dashboard.png)
 
 ## Project Objectives
 
@@ -374,7 +374,7 @@ The dashboard can support:
 ```text
 bayesflight-delay-intelligence/
 ├── README.md
-├── images/
+├── Images/
 │   └── Dashboard.png
 ├── data/
 │   ├── raw/
