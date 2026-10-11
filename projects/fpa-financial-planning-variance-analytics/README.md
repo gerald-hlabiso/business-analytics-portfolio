@@ -1,39 +1,32 @@
 # Financial Planning, Forecasting & Variance Analytics
 
-## FP&A Decision-Support System
+An end-to-end FP&A decision-support system developed for a fictional U.S. industrial company, Summit Industrial Products, Inc.
 
-An end-to-end financial analytics project developed for a fictional U.S. industrial-products company.
+The project integrates Python, SQL, Excel and Power BI to analyze financial performance, explain budget variances, update forecasts, evaluate management scenarios and monitor reconciliation exceptions.
 
-The system integrates SQL, Python, Excel, and Power BI to help management understand financial performance, investigate budget variances, update forecasts, reconcile transactions, and evaluate business scenarios.
+## Business Problem
 
-## Business Questions
+Management needs to understand:
 
-- Why did operating profit differ from budget?
-- Which business units produced the variance?
-- Was the revenue variance caused by price, volume, or product mix?
-- Which expense categories exceeded plan?
-- What do current results imply for the year-end forecast?
-- Which transactions require reconciliation or investigation?
-- How would changes in management assumptions affect EBITDA?
+- Why did revenue and EBITDA differ from budget?
+- Which business units drove financial performance?
+- Was revenue variance caused by price, volume or product mix?
+- Which operating expenses exceeded plan?
+- How does the latest forecast compare with the original budget?
+- How would changes in business assumptions affect projected EBITDA?
+- Which financial records require reconciliation investigation?
 
-## Planned Capabilities
+## Solution
 
-- Budget vs. Actual vs. Forecast reporting
-- Price-volume-mix revenue analysis
-- Gross-margin and operating-expense analysis
-- Rolling forecasts and forecast-accuracy monitoring
-- General-ledger reconciliation
-- Exception and duplicate detection
-- Management scenario analysis
-- Executive Power BI reporting
+The analytical workflow combines:
 
-## Technology
-
-- PostgreSQL-compatible SQL
-- Python
-- Microsoft Excel
-- Power BI
-
-## Status
-
-Project development in progress.
+```text
+Public economic data + Synthetic company data
+                    ↓
+             Python analytics
+                    ↓
+             SQL data layer
+                    ↓
+        Excel financial reporting
+                    ↓
+        Power BI decision support
